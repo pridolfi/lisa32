@@ -9,7 +9,7 @@
   )
 
   (lib_symbols
-    (symbol "Connector:USB_C_Receptacle_USB2.0" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Connector:USB_C_Receptacle_USB2.0_1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at -10.16 19.05 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -31,7 +31,7 @@
       (property "ki_fp_filters" "USB*C*Receptacle*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "USB_C_Receptacle_USB2.0_0_0"
+      (symbol "USB_C_Receptacle_USB2.0_1_0_0"
         (rectangle (start -0.254 -17.78) (end 0.254 -16.764)
           (stroke (width 0)) (fill (type none))
         )
@@ -63,7 +63,7 @@
           (stroke (width 0)) (fill (type none))
         )
       )
-      (symbol "USB_C_Receptacle_USB2.0_0_1"
+      (symbol "USB_C_Receptacle_USB2.0_1_0_1"
         (arc (start -8.89 -3.81) (end -5.08 -3.81) (radius (at -6.985 -3.81) (length 1.905) (angles -179.9 -0.1))
           (stroke (width 0.508)) (fill (type none))
         )
@@ -140,7 +140,7 @@
           (stroke (width 0.254)) (fill (type outline))
         )
       )
-      (symbol "USB_C_Receptacle_USB2.0_1_1"
+      (symbol "USB_C_Receptacle_USB2.0_1_1_1"
         (pin passive line (at 0 -22.86 90) (length 5.08)
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "A1" (effects (font (size 1.27 1.27))))
@@ -1145,13 +1145,13 @@
   (junction (at 257.81 90.17) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 262.89 142.24) (diameter 0.9144) (color 0 0 0 0))
 
-  (no_connect (at 170.18 43.18))
-  (no_connect (at 52.07 64.77))
   (no_connect (at 170.18 40.64))
-  (no_connect (at 170.18 30.48))
+  (no_connect (at 52.07 67.31))
+  (no_connect (at 52.07 64.77))
+  (no_connect (at 170.18 43.18))
   (no_connect (at 170.18 35.56))
   (no_connect (at 57.15 179.07))
-  (no_connect (at 52.07 67.31))
+  (no_connect (at 170.18 30.48))
 
   (wire (pts (xy 25.4 179.07) (xy 29.21 179.07))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -1664,10 +1664,10 @@
   (label "TXD0" (at 194.31 27.94 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
   )
-  (label "~DTR" (at 194.31 33.02 180)
+  (label "~RTS" (at 194.31 33.02 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
   )
-  (label "~RTS" (at 194.31 38.1 180)
+  (label "~DTR" (at 194.31 38.1 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
   )
   (label "IO12" (at 194.31 50.8 180)
@@ -2634,12 +2634,12 @@
     )
   )
 
-  (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 36.83 52.07 0) (unit 1)
+  (symbol (lib_name "Connector:USB_C_Receptacle_USB2.0_1") (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 36.83 52.07 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid "a1d24d3c-b21d-404f-9ef1-cf557c232066")
+    (uuid "0edcee65-01dc-41fa-99e5-440f88478b60")
     (property "Reference" "J1" (id 0) (at 36.83 30.48 0))
     (property "Value" "DX07S016JA1R1500" (id 1) (at 36.83 33.02 0))
-    (property "Footprint" "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11" (id 2) (at 40.64 52.07 0)
+    (property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (id 2) (at 40.64 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (id 3) (at 40.64 52.07 0)
@@ -2909,8 +2909,8 @@
     (path "/ab183ac7-e0fe-40d7-936d-28e7e414834a"
       (reference "D5") (unit 1) (value "WS2812") (footprint "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm")
     )
-    (path "/a1d24d3c-b21d-404f-9ef1-cf557c232066"
-      (reference "J1") (unit 1) (value "DX07S016JA1R1500") (footprint "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11")
+    (path "/0edcee65-01dc-41fa-99e5-440f88478b60"
+      (reference "J1") (unit 1) (value "DX07S016JA1R1500") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
     (path "/acd813c6-f658-4bd6-94ed-77eb77b80cd8"
       (reference "J2") (unit 1) (value "Conn_01x19") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x19_P2.54mm_Vertical")
