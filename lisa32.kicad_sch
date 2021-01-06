@@ -1172,12 +1172,12 @@
   (junction (at 262.89 142.24) (diameter 0.9144) (color 0 0 0 0))
 
   (no_connect (at 170.18 40.64))
-  (no_connect (at 57.15 179.07))
-  (no_connect (at 170.18 35.56))
+  (no_connect (at 170.18 43.18))
   (no_connect (at 52.07 67.31))
   (no_connect (at 52.07 64.77))
   (no_connect (at 170.18 30.48))
-  (no_connect (at 170.18 43.18))
+  (no_connect (at 57.15 179.07))
+  (no_connect (at 170.18 35.56))
 
   (wire (pts (xy 25.4 179.07) (xy 29.21 179.07))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -2732,7 +2732,7 @@
     (in_bom yes) (on_board yes)
     (uuid "0edcee65-01dc-41fa-99e5-440f88478b60")
     (property "Reference" "J1" (id 0) (at 36.83 30.48 0))
-    (property "Value" "DX07S016JA1R1500" (id 1) (at 36.83 33.02 0))
+    (property "Value" "USB4105-GF-A" (id 1) (at 36.83 33.02 0))
     (property "Footprint" "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" (id 2) (at 40.64 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3016,7 +3016,7 @@
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
     )
     (path "/0edcee65-01dc-41fa-99e5-440f88478b60"
-      (reference "J1") (unit 1) (value "DX07S016JA1R1500") (footprint "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G")
+      (reference "J1") (unit 1) (value "USB4105-GF-A") (footprint "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G")
     )
     (path "/acd813c6-f658-4bd6-94ed-77eb77b80cd8"
       (reference "J2") (unit 1) (value "Conn_01x19") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x19_P2.54mm_Vertical")
@@ -3186,6 +3186,9 @@
     (path "/5f304c88-142b-41d9-b86f-2d4158492d4d/b152a537-abf7-490b-9c95-06c6e453418d"
       (reference "#PWR049") (unit 1) (value "GND") (footprint "")
     )
+    (path "/5f304c88-142b-41d9-b86f-2d4158492d4d/a04f630a-495d-4d28-9d66-738782f8f1f1"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
     (path "/5f304c88-142b-41d9-b86f-2d4158492d4d/876fbf19-8b18-4393-a760-05c6d31f44d3"
       (reference "C5") (unit 1) (value "100nF/50V") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -3273,8 +3276,8 @@
     (path "/5f304c88-142b-41d9-b86f-2d4158492d4d/c3e842d1-6265-4bbc-b262-9e817d5bb7a9"
       (reference "U4") (unit 1) (value "93C46") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
-    (path "/5f304c88-142b-41d9-b86f-2d4158492d4d/f67005c3-8fd8-4174-8514-3e4781bd7e48"
-      (reference "Y1") (unit 1) (value "12MHz") (footprint "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm")
+    (path "/5f304c88-142b-41d9-b86f-2d4158492d4d/32fbccdc-140b-45fb-8942-ec18d57e877b"
+      (reference "Y1") (unit 1) (value "12MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
     )
     (path "/f1d8e85a-9ede-4ed8-b797-024e5aeb8973/05f0967b-6898-4a4c-8c60-9fff3569c37c"
       (reference "#PWR050") (unit 1) (value "+3V3") (footprint "")
