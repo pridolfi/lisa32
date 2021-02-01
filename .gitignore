@@ -28,3 +28,5 @@ lisa32-backups/
 # Exported BOM files
 *.xml
 *.csv
+
+gerber/
